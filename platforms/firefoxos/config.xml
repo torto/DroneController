@@ -3,6 +3,9 @@
     <name>HelloCordova</name>
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <feature name="Accelerometer">
+        <param name="firefoxos-package" value="Accelerometer" />
+    </feature>
     <name>DroneController</name>
     <description>
     A sample Apache Cordova application that responds to the deviceready event.
@@ -12,7 +15,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="Accelerometer">
-        <param name="firefoxos-package" value="Accelerometer" />
-    </feature>
 </widget>
