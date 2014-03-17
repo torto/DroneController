@@ -1,0 +1,19 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "config.xml": {
+            "/*": {
+                "<feature name=\"Accelerometer\"><param name=\"firefoxos-package\" value=\"Accelerometer\" /></feature>": 3
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "br.edu.utfpr.dronecontroller"
+        }
+    },
+    "dependent_plugins": {}
+}
